@@ -15,7 +15,7 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
     return (
         <flexboxLayout style={styles.container}>
             <label className="text-2xl mb-4 font-bold text-center">
-                Hello World!
+                Kerry Woodall
             </label>
             <button
                 style={styles.button}
