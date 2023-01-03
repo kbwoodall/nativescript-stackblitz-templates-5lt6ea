@@ -19,7 +19,7 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
             </label>
             <button
                 style={styles.button}
-                onTap={() => Dialogs.alert("Tapped!")}
+                onTap={() => Dialogs.alert("Tapped again!")}
             >
                 Tap me for an alert
             </button>
@@ -41,6 +41,8 @@ const styles = StyleSheet.create({
     },
     button: {
         fontSize: 24,
-        color: "#2e6ddf",
+        color: "black",
     },
 });
+
+//   color: "#2e6ddf",
