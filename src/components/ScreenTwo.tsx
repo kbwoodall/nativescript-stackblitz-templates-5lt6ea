@@ -14,11 +14,10 @@ export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
     return (
         <flexboxLayout style={styles.container}>
             <label style={styles.text}>
-                You're viewing screen two!
+                More numbers
             </label>
             <label style={styles.text}>
-                Message: {route.params.message}
-            </label>
+                Wifey: 702-348-7381            </label>
             <button
                 style={styles.button}
                 onTap={() => navigation.goBack()}
@@ -29,12 +28,14 @@ export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
     );
 }
 
+//Message: {route.params.message}
+
 const styles = StyleSheet.create({
     container: {
-        height: "100%",
+        height: "50%",
         flexDirection: "column",
         justifyContent: "center",
-        backgroundColor: "yellow",
+        backgroundColor:  "white",
     },
     text: {
         textAlignment: "center",

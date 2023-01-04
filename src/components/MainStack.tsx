@@ -16,7 +16,7 @@ export const MainStack = () => (
             initialRouteName="Screen One"
             screenOptions={{
                 headerStyle: {
-                    backgroundColor: "white",
+                    backgroundColor: "#00FF7F",
                 },
                 headerShown: true,
             }}
