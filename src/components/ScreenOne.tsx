@@ -22,9 +22,9 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
       </button>
       <button
         style={styles.button}
-        onTap={() => navigation.navigate('Two', { message: 'Hello, world!' })}
-      >
-        Go to next screen
+        onTap={() => navigation.navigate('Two', { message: 'Hello, world!' })}>
+         More Numbers
+
       </button>
     </flexboxLayout>
   );
