@@ -11,8 +11,12 @@ type ScreenTwoProps = {
 };
 
 export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
+  console.log('ok here');
   return (
     <flexboxLayout style={styles.container}>
+
+      <label style={styles.text}>Me: 702-521-0815 </label>
+
       <label style={styles.text}>Wifey: 702-348-7381 </label>
 
       <label style={styles.text}>Shelley: 815-677-1871 </label>

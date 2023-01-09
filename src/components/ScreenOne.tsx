@@ -22,7 +22,7 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
       </button>
       <button
         style={styles.button}
-        onTap={() => navigation.navigate('Two', { message: 'Hello, world!' })}>
+        onTap={() => navigation.navigate('Two', { message: 'Hello, world!xxxx' })}>
          More Numbers
 
       </button>
