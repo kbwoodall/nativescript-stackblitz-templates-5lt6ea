@@ -11,10 +11,9 @@ type ScreenTwoProps = {
 };
 
 export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
-  console.log('ok here');
+  console.log('ok here again');
   return (
     <flexboxLayout style={styles.container}>
-
       <label style={styles.text}>Me: 702-521-0815 </label>
 
       <label style={styles.text}>Wifey: 702-348-7381 </label>
@@ -32,10 +31,11 @@ export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
 
 const styles = StyleSheet.create({
   container: {
-    height: '50%',
+    height: '100%',
     flexDirection: 'column',
     justifyContent: 'center',
-    backgroundColor: 'white',
+
+    backgroundColor: '#FFFACD',
   },
   text: {
     textAlignment: 'center',

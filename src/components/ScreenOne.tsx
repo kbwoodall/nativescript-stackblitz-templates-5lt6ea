@@ -12,15 +12,16 @@ type ScreenOneProps = {
 };
 
 const Chdg = () => {
-  return 'ok so far';
+  return (
+    <label className="text-2xl mb-4 font-bold text-center">Kerry Woodall</label>
+  );
 };
 
 export function ScreenOne({ navigation }: ScreenOneProps) {
   return (
     <flexboxLayout style={styles.container}>
-      <label className="text-2xl mb-4 font-bold text-center">
-        Kerry Woodall
-      </label>
+      <Chdg></Chdg>
+
       <button style={styles.button} onTap={() => Dialogs.alert('702-521-0815')}>
         Home phone
       </button>
@@ -38,8 +39,9 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
 
 const styles = StyleSheet.create({
   container: {
-    height: '50%',
+    height: '100%',
     flexDirection: 'column',
+    backgroundColor: "#FFFACD",
     justifyContent: 'center',
   },
   button: {

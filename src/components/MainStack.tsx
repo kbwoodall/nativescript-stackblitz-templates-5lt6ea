@@ -8,7 +8,8 @@ import { ScreenTwo } from "./ScreenTwo";
 const StackNavigator = stackNavigatorFactory();
 
 /**
- * The main stack navigator for the whole app.
+ * The main stack navigator for the whole app. backgroundColor: "#00FF7F",
+ * 
  */
 export const MainStack = () => (
     <BaseNavigationContainer>
