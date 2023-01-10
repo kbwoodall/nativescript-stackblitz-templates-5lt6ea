@@ -11,6 +11,10 @@ type ScreenOneProps = {
   navigation: FrameNavigationProp<MainStackParamList, 'One'>;
 };
 
+const Chdg = () => {
+  return 'ok so far';
+};
+
 export function ScreenOne({ navigation }: ScreenOneProps) {
   return (
     <flexboxLayout style={styles.container}>
@@ -22,9 +26,11 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
       </button>
       <button
         style={styles.button}
-        onTap={() => navigation.navigate('Two', { message: 'Hello, world!xxxx' })}>
-         More Numbers
-
+        onTap={() =>
+          navigation.navigate('Two', { message: 'Hello, world!xxxx' })
+        }
+      >
+        More Numbers
       </button>
     </flexboxLayout>
   );
