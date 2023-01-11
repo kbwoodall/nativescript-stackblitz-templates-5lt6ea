@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: "#FFFACD",
     justifyContent: 'center',
+    paddingBottom: 300,
   },
   button: {
     fontSize: 24,
