@@ -12,9 +12,7 @@ type ScreenOneProps = {
 };
 
 const Chdg = () => {
-  return (
-    <label className="text-2xl mb-4 font-bold text-center">Me</label>
-  );
+  return <label className="text-2xl mb-4 font-bold text-center">Me</label>;
 };
 
 //style={styles.button}
@@ -24,13 +22,15 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
     <flexboxLayout style={styles.container}>
       <Chdg></Chdg>
 
-      <button  className="text-2xl mb-4 font-bold text-center"
-       onTap={() => Dialogs.alert('702-521-0815')}>
+      <button
+        className="text-2xl mb-4 font-bold text-center lowercase"
+        onTap={() => Dialogs.alert('702-521-0815')}
+      >
         Notes
       </button>
 
       <button
-        className="text-2xl mb-4 font-bold text-center"
+        className="text-2xl mb-4 font-bold text-center  lowercase"
         onTap={() =>
           navigation.navigate('Two', { message: 'Hello, world!xxxx' })
         }
@@ -39,23 +39,22 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
       </button>
 
       <button
-        className="text-2xl mb-4 font-bold text-center"
+        className="text-2xl mb-4 font-bold text-center  lowercase"
         onTap={() =>
           navigation.navigate('Two', { message: 'Hello, world!xxxx' })
         }
       >
         Insurance cards
       </button>
-      
+
       <button
-        className="text-2xl mb-4 font-bold text-center"
+        className="text-2xl mb-4 font-bold text-center  lowercase"
         onTap={() =>
           navigation.navigate('Two', { message: 'Hello, world!xxxx' })
         }
       >
         DMV
       </button>
-
     </flexboxLayout>
   );
 }
