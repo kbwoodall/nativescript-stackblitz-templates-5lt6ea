@@ -13,7 +13,7 @@ type ScreenOneProps = {
 
 const Chdg = () => {
   return (
-    <label className="text-2xl mb-4 font-bold text-center">me</label>
+    <label className="text-2xl mb-4 font-bold text-center">Me</label>
   );
 };
 

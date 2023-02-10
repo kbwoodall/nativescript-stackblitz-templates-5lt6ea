@@ -15,11 +15,11 @@ export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
   const lower = 'Go back';
   return (
     <flexboxLayout style={styles.container}>
-      <label style={styles.text}>Me: 702-521-0815 </label>
+      <label style={styles.text}>Elon: 800-123-0815 </label>
 
-      <label style={styles.text}>Wifey: 702-348-7381 </label>
+      <label style={styles.text}>Bill: 800-456-7381 </label>
 
-      <label style={styles.text}>Shelley: 815-677-1871 </label>
+      <label style={styles.text}>Warren: 800-789-1871 </label>
 
       <button style={styles.button} onTap={() => navigation.goBack()}>
         {lower}
@@ -29,6 +29,17 @@ export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
 }
 
 //Message: {route.params.message} fontSize: 24,
+
+/*
+      <label style={styles.text}>Me: 702-521-0815 </label>
+
+      <label style={styles.text}>Wifey: 702-348-7381 </label>
+
+      <label style={styles.text}>Shelley: 815-677-1871 </label>
+
+
+*/
+
 
 const styles = StyleSheet.create({
   container: {
