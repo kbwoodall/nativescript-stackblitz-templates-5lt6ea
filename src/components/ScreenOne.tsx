@@ -13,7 +13,7 @@ type ScreenOneProps = {
 
 const Chdg = () => {
   return (
-    <label className="text-2xl mb-4 font-bold text-center">Kerry Woodall</label>
+    <label className="text-2xl mb-4 font-bold text-center">me</label>
   );
 };
 
@@ -28,6 +28,7 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
        onTap={() => Dialogs.alert('702-521-0815')}>
         Notes
       </button>
+
       <button
         className="text-2xl mb-4 font-bold text-center"
         onTap={() =>
@@ -36,6 +37,25 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
       >
         Contacts
       </button>
+
+      <button
+        className="text-2xl mb-4 font-bold text-center"
+        onTap={() =>
+          navigation.navigate('Two', { message: 'Hello, world!xxxx' })
+        }
+      >
+        Insurance cards
+      </button>
+      
+      <button
+        className="text-2xl mb-4 font-bold text-center"
+        onTap={() =>
+          navigation.navigate('Two', { message: 'Hello, world!xxxx' })
+        }
+      >
+        DMV
+      </button>
+
     </flexboxLayout>
   );
 }
