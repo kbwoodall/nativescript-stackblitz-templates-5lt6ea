@@ -24,7 +24,7 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
 
       <button
         className="text-2xl mb-4 font-bold text-center lowercase"
-        onTap={() => Dialogs.alert('702-521-0815')}
+        onTap={() => Dialogs.alert('702-521-0815 me ')}
       >
         Notes
       </button>
