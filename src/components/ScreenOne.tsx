@@ -32,7 +32,7 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
       <button
         className="text-2xl mb-4 font-bold text-center  lowercase"
         onTap={() =>
-          navigation.navigate('Two', { message: 'Hello, world!xxxx' })
+          navigation.navigate('Two', { message: 'Hello, world!xxxx  me' })
         }
       >
         Contacts
