@@ -5,12 +5,12 @@ import { FrameNavigationProp } from 'react-nativescript-navigation';
 
 import { MainStackParamList } from '../NavigationParamList';
 
-type ScreenDmvProps = {
-  route: RouteProp<MainStackParamList, 'Dmv'>;
-  navigation: FrameNavigationProp<MainStackParamList, 'Dmv'>;
+type ScreenTwoProps = {
+  route: RouteProp<MainStackParamList, 'Two'>;
+  navigation: FrameNavigationProp<MainStackParamList, 'Two'>;
 };
 
-export function ScreenDmv{ navigation, route }: ScreenDmvProps) {
+export function ScreenTwo({ navigation, route }: ScreenTwoProps) {
   console.log('ok here again');
   const lower = 'Go back';
   return (
