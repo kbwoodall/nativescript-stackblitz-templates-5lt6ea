@@ -4,6 +4,7 @@ import { stackNavigatorFactory } from "react-nativescript-navigation";
 
 import { ScreenOne } from "./ScreenOne";
 import { ScreenTwo } from "./ScreenTwo";
+import { ScreenDmv } from "./ScreenDmv";
 
 const StackNavigator = stackNavigatorFactory();
 
